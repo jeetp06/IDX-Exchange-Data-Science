@@ -1,0 +1,19 @@
+# The MLS records are licensed. Never publish raw or transformed property records.
+data/raw/*
+!data/raw/README.md
+outputs/*
+!outputs/.gitkeep
+*.joblib
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.env.*
+*.log
+.DS_Store
+.venv/
+.uv-cache/
+data/external/
+docs/WEEK8_RESULTS.md
+docs/WEEK7_RESULTS.md
